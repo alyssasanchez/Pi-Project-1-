@@ -7,7 +7,7 @@ void convertTime(int val1, colorcode_t oncolor, colorcode_t offcolor, int column
         int count = 7;
         while(val1 != 0){
                 if( val1 %2 == 0){
-                        sexPixel(count,column,offcolor);
+                        setPixel(count,column,offcolor);
                 }
                 else{
                         setPixel(count,column,oncolor);
